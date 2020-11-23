@@ -1,10 +1,7 @@
-# n8n-nodes-starter
+# n8n-nodes-suncalc
 
-![n8n.io - Workflow Automation](https://raw.githubusercontent.com/n8n-io/n8n/master/docs/images/n8n-logo.png)
-
-Example starter module for custom n8n nodes.
-
+n8n node to calculate sunrise, sunset, dusk, etc times based on location and date. This node uses the "suncalc" NPM library to make these calculations in an offline environment.
 
 ## License
 
-[Apache 2.0 with Commons Clause](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/LICENSE.md)
+[Apache 2.0 with Commons Clause](https://github.com/christopher-hayes/n8n-nodes-suncalc/blob/master/packages/nodes-base/LICENSE.md)

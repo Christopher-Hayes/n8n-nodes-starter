@@ -1,16 +1,16 @@
 {
-    "name": "n8n-nodes-starter",
+    "name": "n8n-nodes-suncalc",
     "version": "0.1.0",
-    "description": "Example starter module for custom n8n nodes.",
+    "description": "Calculate time of sunrise, sunset, last light, etc",
     "license": "SEE LICENSE IN LICENSE.md",
-    "homepage": "https://n8n.io",
+    "homepage": "",
     "author": {
-        "name": "Jan Oberhauser",
-        "email": "jan@n8n.io"
+        "name": "Chris Hayes",
+        "email": ""
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/n8n-io/n8n-nodes-starter.git"
+        "url": "git+https://github.com/christopher-hayes/n8n-nodes-suncalc.git"
     },
     "main": "index.js",
     "scripts": {
@@ -25,10 +25,9 @@
     ],
     "n8n": {
         "credentials": [
-            "dist/credentials/ExampleCredentials.credentials.js"
         ],
         "nodes": [
-            "dist/nodes/ExampleNode/ExampleNode.node.js"
+            "dist/nodes/SunCalc/SunCalc.node.js"
         ]
     },
     "devDependencies": {
