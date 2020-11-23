@@ -24,8 +24,7 @@
         "dist"
     ],
     "n8n": {
-        "credentials": [
-        ],
+        "credentials": [],
         "nodes": [
             "dist/nodes/SunCalc/SunCalc.node.js"
         ]
@@ -43,7 +42,12 @@
         "typescript": "~3.5.2"
     },
     "dependencies": {
-        "n8n-core": "^0.10.0"
+        "@types/lodash": "^4.14.165",
+        "lodash": "^4.17.20",
+        "moment-timezone": "^0.5.32",
+        "n8n-core": "^0.10.0",
+        "suncalc": "^1.8.0",
+        "suncalc-tz": "^1.9.1"
     },
     "jest": {
         "transform": {
